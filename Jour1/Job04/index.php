@@ -5,8 +5,7 @@
     <title>Test Bisextile</title>
 </head>
 <body>
-    <h1>Vérification d'une année bisextile</h1>
-
+    <h1>Vérification d'une année bisextile ! Veuillez Recharger La Page</h1>
     <script src="script.js"></script>
     <script>
         // Test interactif dans le navigateur
