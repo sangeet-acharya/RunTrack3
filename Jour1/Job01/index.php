@@ -1,13 +1,19 @@
+<!-- Créez un fichier index.php contenant les balises html de base (doctype, html, head,
+body). Dans la balise head, ajoutez une ligne de code javascript permettant d’afficher
+une popup qui contient le texte “Hello Javascript!”. -->
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Job01Jour01</title>
 </head>
+
 <body>
-        <script>
-            window.alert("Hello Javascript");
-        </script>
+    <script>
+        window.alert("Hello Javascript");
+    </script>
 </body>
+
 </html>
