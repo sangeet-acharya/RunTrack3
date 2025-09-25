@@ -1,1 +1,1 @@
-window.alert("Hello Javascript");
+alert("Hello Javascript");

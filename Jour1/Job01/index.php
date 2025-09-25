@@ -12,7 +12,7 @@ une popup qui contient le texte “Hello Javascript!”. -->
 
 <body>
     <script>
-        window.alert("Hello Javascript");
+        alert("Hello Javascript");
     </script>
 </body>
 

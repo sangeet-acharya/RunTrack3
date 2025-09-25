@@ -7,7 +7,7 @@ script.js. -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script> <!-- link le js dans un ficher html ou php -->
+    <script src="script.js"></script> <!-- link le ficher js dans un ficher html ou php -->
     <title>Job02Jour01</title>
 </head>
 

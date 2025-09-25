@@ -1,30 +1,31 @@
-const joursferie = [
-  new Date(Date.UTC(2020, 0, 1)),
-  new Date(Date.UTC(2020, 3, 13)),
-  new Date(Date.UTC(2020, 4, 1)),
-  new Date(Date.UTC(2020, 4, 8)),
-  new Date(Date.UTC(2020, 4, 21)),
-  new Date(Date.UTC(2020, 5, 1)),
-  new Date(Date.UTC(2020, 6, 14)),
-  new Date(Date.UTC(2020, 7, 15)),
-  new Date(Date.UTC(2020, 10, 1)),
-  new Date(Date.UTC(2020, 10, 11)),
-  new Date(Date.UTC(2020, 11, 25)),
-];
-var a = new Date(prompt("date 20XX-MM-DD"));
-let day = a.getDay();
+// Créez une fonction “jourtravaille” qui prend en paramètre une date au format Date. Si la
+// date correspond à un jour férié de l’année 2020, la fonction affiche “Le $jour $mois
+// $année est un jour férié”. Si elle correspond à un samedi ou un dimanche, alors le
+// message affiché est “Non, $jour $mois $année est un week-end”, sinon afficher “Oui,
+// $jour $mois $année est un jour travaillé”.
+// $jour correspond au numéro du jour, $mois au mois et $année à l’année.
 
-function jourstravaille(a) {
-  for (let i = 0; i < joursferie.length; i++) {
-    if (a <= joursferie[i]) {
-      console.log(a + "C'est un jour ferie");
+function jourtravaille(date) {
+  var jourFeriée = [
+    "2020_01_01",
+    "2020_04_13",
+    "2020_05_01",
+    "2020_05_08",
+    "2020_06_01",
+    "2020_07_14",
+    "2020_08_15",
+    "2020_11_01",
+    "2020_11_11",
+    "2020_12_25",
+  ];
+  for (let i = 0; i <= jourFeriée.length; i++) {
+    if (date == jourFeriée[i]) {
+      console.log(date + " est un jour férié");
+      return;
     } else {
-      console.log(a + "C'est un jour travaille");
+      console.log(date + " est un jour travaillé");
     }
-  }
-  if (day == 0 || day == 6) {
-    console.log(a + "its a weekend");
   }
 }
 
-jourstravaille();
+jourtravaille("2020_01_01");
