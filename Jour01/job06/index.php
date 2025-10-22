@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jour1job01</title>
-    <script>
-        alert("Hello Javascript!.");
-    </script>
+    <script src="script.js"></script>
+    <title>Jour1job06</title>
 </head>
 
 <body>
