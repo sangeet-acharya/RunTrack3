@@ -13,7 +13,7 @@ window.addEventListener("scroll", () => {
   // Exemple :
   // Si la page fait 2000px de haut et que tu es descendu de 500px :
   // 👉 opacity = 500 / 2000 = 0.25
-  const opacity = position / document.body.offsetHeight - window.innerHeight;
+  const opacity = position / document.body.offsetHeight;
 
   //la couleur devient de plus en plus opaque en descendant.
   footer.style.backgroundColor = `rgba(0,0,0, ${opacity})`;
