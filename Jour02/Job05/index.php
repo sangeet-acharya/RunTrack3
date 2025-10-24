@@ -10,11 +10,11 @@
 </head>
 
 <body>
+    <footer id="footer">
+    </footer>
     <!-- relier le fichier javascript avec le fichier php ou html toujours avant la balise fermante body -->
     <script src="script.js"></script>
 </body>
-<footer>
-    <p>hey</p>
-</footer>
+
 
 </html>
